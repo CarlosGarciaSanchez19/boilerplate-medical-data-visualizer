@@ -28,7 +28,6 @@ def draw_cat_plot():
     # 8
     fig = chart.figure
 
-
     # 9
     fig.savefig('catplot.png')
     return fig
@@ -44,8 +43,6 @@ def draw_heat_map():
 
     # 13
     mask = np.triu(np.ones_like(corr, dtype=bool), k=0)
-
-
 
     # 14
     fig, ax = plt.subplots(figsize=(12, 12))
